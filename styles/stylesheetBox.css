@@ -1,0 +1,109 @@
+/*
+	Conner Batson
+	stylesheetBox.css
+	5/22/2022
+	Stylesheet for making 3d boxes in css. More can be found in another
+	project at a larger scale.
+	Last edit: 5/22/2022
+*/
+
+.parent
+{
+	justify-content: left;
+	width: auto;
+	display: flex;
+}
+
+.box-container
+{
+	margin-right: 125px;
+	position: relative;
+}
+
+.box_side1 {
+	width: 100px;
+	height: 100px;
+	transform: skewY(30deg) translateY(100px);
+	z-index: 3;
+}
+
+.box_side2 {
+	width: 100px;
+	height: 100px;
+	transform: skewY(-30deg) translateX(100px) translateY(57.5px);
+	z-index: 3;
+}
+.box_top {
+	width: 101.5px;
+	height: 101.5px;
+	transform: rotateZ(-45deg) skew(15deg, 15deg) translateX(201.5px) translateY(-147px) scaleX(1.1) scaleY(1.1);
+	z-index: 3;
+}
+
+.center {
+	position: Window.innerWidth / 2;
+}
+
+.box-g {
+	background: linear-gradient(transparent, #8fbc8f);
+}
+
+.box-g2 {
+	background: #8fbc8f;
+}
+
+.box-b {
+	background: linear-gradient(transparent, #00ffff);
+}
+
+.box-b2 {
+	background: #00ffff;
+}
+
+.box-r {
+	background: linear-gradient(transparent, #dc143c);
+}
+
+.box-r2 {
+	background: #dc143c;
+}
+
+.box-y {
+	background: linear-gradient(transparent, #ffd700);
+}
+
+.box-y2 {
+	background: #ffd700;
+}
+
+.box-grey {
+	background: linear-gradient(transparent, #a9a9a9);
+}
+
+.box-grey2 {
+	background: #a9a9a9;
+}
+
+.box-orange {
+	background: linear-gradient(transparent, #ff8500);
+}
+
+.box-orange2 {
+	background: #ff8500;
+}
+
+.box-plum {
+	background: linear-gradient(transparent, #dda0dd);
+}
+
+.box-plum2 {
+	background: #dda0dd;
+}
+
+.box-tan {
+	background: linear-gradient(transparent, #d2b48c);
+}
+
+.box-tan2 {
+	background: #d2b48c;
+}

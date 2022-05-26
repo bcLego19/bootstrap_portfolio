@@ -1,0 +1,84 @@
+/*
+
+	CSS stylesheet3
+	Conner Batson
+	5/15/2022
+	
+	last edit 5/22/2022
+
+*/
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+.container1 {
+	background: #f3f3f3;
+}
+
+/* calc code */
+
+.calc-container {
+	font-size: 26px;
+	width: 360px;
+}
+
+.item-header {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: black;
+  color: white;
+  text-align: right;
+  width: 360px;
+}
+
+.btn1 {
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.silver {
+  background-color: silver;
+  color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.btn1 {
+	width: 80px;
+	height: 80px;
+	
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+

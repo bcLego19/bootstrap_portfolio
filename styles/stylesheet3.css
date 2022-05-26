@@ -1,0 +1,57 @@
+/*
+
+	CSS stylesheet3
+	Conner Batson
+	5/8/2022
+	
+	last edit 5/24/2022
+
+*/
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+.row {
+	height: 44.5vh;
+}
+
+.row p {
+	font-size: 16px;
+}
+
+.row:nth-of-type(1) {
+	padding-top: 50px;
+	height: 46.75vh;
+}
+
+.colored-row:nth-of-type(odd) {
+	background: AntiqueWhite;
+}
+
+.colored-row:nth-of-type(even) {
+	background: AliceBlue;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}

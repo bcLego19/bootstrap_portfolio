@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Portfolio</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		<!--
+			Author:		Conner Batson
+			Date:		4/25/2022
+			Name:		main_page
+			Overview:	Bootstrap based portfolio project with code borrowed from examples from w3 schools.
+			Last Edit:	5/24/2022
+		-->
+		<!-- Bootstrap Code Fetch -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- link to stylesheets -->
+		<link rel="stylesheet" href="..\styles\stylesheet1.css">
+	
+	</head>
+
+	<body>
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		
+			<div class="container-fluid">
+		
+				<div class="navbar-header">
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						
+					</button>
+					
+					<a class="navbar-brand" href="#">Portfolio</a>
+					
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+				
+					<ul class="nav navbar-nav">
+					
+						<li class="active"><a href="../pages/main_page.html">Home</a></li>
+						
+						<li><a href="../pages/resume_page.html">Resume</a></li>
+						
+						<li><a href="../pages/pic_page.html">Images</a></li>
+						
+						<li><a href="../pages/skill_page.html">Skills</a></li>
+						
+						<li><a href="../pages/contact_page.html">Contact</a></li>
+						
+						<ul class="nav navbar-nav navbar-right">
+					
+							<li class="nav-item dropdown">
+							
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Samples
+							<span class="caret"></span></a>
+							
+								<ul class="dropdown-menu">
+									<li><a href="../pages/sample_javascript.html">Main</a></li>
+									
+									<li>
+										<a class="dropdown-item" href="#">
+											Animations<span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu dropdown-submenu">
+										
+											<li><a href="../pages/animation.html">Animation 1</a></li>
+											<li><a href="../pages/animation2.html">Animation 2</a></li>
+											<li><a href="../pages/animation3.html">Animation 3</a></li>
+											<li><a href="../pages/animation4.html">Animation 4</a></li>
+											<li><a href="../pages/animation5.html">Animation 5</a></li>
+											
+										</ul>
+									</li>
+									
+									<li><a href="../pages/border_animation_page.html">Borders</a></li>
+									<li><a href="../pages/3d_box.html">Glow Box</a></li>
+									<li><a href="../pages/web_search.html">Search Input</a></li>
+									<li><a href="../pages/triangle_test.html">Shape Test</a></li>
+									
+								</ul>
+								
+							</li>
+							
+						</ul>
+						
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+						
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Job Sites
+						<span class="caret"></span></a>
+						
+							<ul class="dropdown-menu">
+								<li><a href="https://www.indeed.com">Indeed</a></li>
+								<li><a href="https://www.linkedin.com">LinkedIn</a></li>
+							</ul>
+							
+						</li>
+						
+					</ul>
+				
+				</div>
+			
+			</div>
+		
+		</nav>
+	
+		<!-- jumbotron div with extra margin at the top to compensate with the top fixed navbar -->
+	
+		<div class="jumbotron" style="margin-top:50px">
+		
+			<div class="container text-container">
+			
+				<h1>My Portfolio</h1>
+				
+				<p>
+				I always had an interest with computers at a young age. My favorite activity tends to be video games.
+				Interest in computer programming grew when I traveled to computer programming summer classes to keep me busy.
+				This trend continued until I decided to become a computer science major. I completed my Associates in Computer
+				Science in 2019 and completed a major in Computer Science and a minor in Mathematics in 2021. I continued 
+				practicing with projects such as this and learning about other relevant work, such as javascript, vue, node, 
+				and react.
+				</p>
+			
+			</div>
+		
+		</div>
+		
+		<div class="container-fluid text-center">
+			<!--
+				Rows are divided into segments with divisions that add up to 12.
+				In other words, you can have 1 12w col, 2 6w col, 3 4w col, or 
+				4 3w col, as an example.
+			-->
+			<h3>Highlights</h3>
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<p>Clark College</p>
+					<p>Associate of Science Transfer Track 2</p>
+					<p>with Honors</p>
+					<p>GPA 3.86</p>
+				</div>
+				
+				<div class="col-sm-4">
+					<p>Washington State University</p>
+					<p>Software Design Project</p>
+					<p>Autolab Project Backend Developer</p>
+					<p>General Troubleshooting</p>
+				</div>
+				
+				<div class="col-sm-4">
+					<p>Washington State University</p>
+					<p>Bachelor of Science in Computer Science</p>
+					<p>Minor in Mathematics</p>
+					<p>GPA 3.73</p>
+				</div>
+
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="..\resources\image4.jpeg" class="img-responsive" style="width:100%" alt="Image">
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Work Status:</h3>
+
+					<p>Who:		Core Commissions</p>
+					<p>What:	Software Testing Specialist</p>
+					<p>When:	As of 5/31/2022</p>
+					
+				</div>
+				
+				<div class="col-sm-4">
+					<img src="..\resources\image2.jpeg" class="img-responsive" style="width:100%" alt="Image">
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<footer class="container-fluid">
+		
+			<p>Created by Conner J Batson. Updated 5/22/2022</p>
+			
+		</footer>
+	
+	</body>
+
+</html>

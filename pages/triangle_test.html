@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Portfolio/Samples/ShapeTest</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		<!--
+			Author:		Conner Batson
+			Date:		5/15/2022
+			Name:		Triangle Test page
+			Overview:	Test page for making triangles and playing
+						with them.
+			Last Edit:	5/24/2022
+		-->
+		<!-- Bootstrap Code Fetch -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- link to stylesheets -->
+		<link rel="stylesheet" href="../styles/stylesheet5.css">
+		<link rel="stylesheet" href="../styles/styleTriangle.css">
+	
+	</head>
+
+	<body>
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		
+			<div class="container-fluid">
+		
+				<div class="navbar-header">
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						
+					</button>
+					
+					<a class="navbar-brand" href="#">Portfolio</a>
+					
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+				
+					<ul class="nav navbar-nav">
+					
+						<li><a href="../pages/main_page.html">Home</a></li>
+						
+						<li><a href="../pages/resume_page.html">Resume</a></li>
+						
+						<li><a href="../pages/pic_page.html">Images</a></li>
+						
+						<li><a href="../pages/skill_page.html">Skills</a></li>
+						
+						<li><a href="../pages/contact_page.html">Contact</a></li>
+						
+						<ul class="nav navbar-nav navbar-right">
+					
+							<li class="nav-item dropdown">
+							
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Samples
+							<span class="caret"></span></a>
+							
+								<ul class="dropdown-menu">
+									<li><a href="../pages/sample_javascript.html">Main</a></li>
+									
+									<li>
+										<a class="dropdown-item" href="#">
+											Animations<span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu dropdown-submenu">
+										
+											<li><a href="../pages/animation.html">Animation 1</a></li>
+											<li><a href="../pages/animation2.html">Animation 2</a></li>
+											<li><a href="../pages/animation3.html">Animation 3</a></li>
+											<li><a href="../pages/animation4.html">Animation 4</a></li>
+											<li><a href="../pages/animation5.html">Animation 5</a></li>
+											
+										</ul>
+									</li>
+									
+									<li><a href="../pages/border_animation_page.html">Borders</a></li>
+									<li><a href="../pages/3d_box.html">Glow Box</a></li>
+									<li><a href="../pages/web_search.html">Search Input</a></li>
+									<li><a href="../pages/triangle_test.html">Shape Test</a></li>
+									
+								</ul>
+								
+							</li>
+							
+						</ul>
+						
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+						
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Job Sites
+						<span class="caret"></span></a>
+						
+							<ul class="dropdown-menu">
+								<li><a href="https://www.indeed.com">Indeed</a></li>
+								<li><a href="https://www.linkedin.com">LinkedIn</a></li>
+							</ul>
+							
+						</li>
+						
+					</ul>
+				
+				</div>
+			
+			</div>
+		
+		</nav>
+		
+		<div class="container-flex text-center" style="padding-top:50px;">
+		
+			<div class="row">
+		
+				<div class="col-sm-3">
+				
+					<div class="tri-up"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-down"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-left"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-right"></div>
+				
+				</div>
+		
+			</div>
+			<br></br>
+			
+			<div class="row">
+		
+				<div class="col-sm-3">
+				
+					<div class="tri-up-eq"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-down-eq"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-left-eq"></div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="tri-right-eq"></div>
+				
+				</div>
+		
+			</div>
+			<br></br>
+			
+			<div class="row">
+		
+				<div class="col-sm-3">
+				
+					<div class="triangle-left">
+					
+						<div class="inner-triangle"></div>
+					
+					</div>
+				
+				</div>
+		
+				<div class="col-sm-3">
+				
+					<div class="triangle-right">
+					
+						<div class="inner-triangle-right"></div>
+					
+					</div>
+				
+				</div>
+		
+				<div class="col-sm-3">
+				
+					<div class="triangle-up">
+					
+						<div class="inner-triangle-up"></div>
+					
+					</div>
+				
+				</div>
+		
+				<div class="col-sm-3">
+				
+					<div class="triangle-down">
+					
+						<div class="inner-triangle-down"></div>
+					
+					</div>
+				
+				</div>
+		
+			</div>
+			<br></br>
+			
+			<div class="row">
+			
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg">
+							<div class="top">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#f00"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="mid">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "green"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="bot">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "blue"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg">
+							<div class="top">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#000000"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="mid">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#d2691e"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="bot">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#00008b"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg">
+							<div class="top">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#006400"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="mid">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#9932cc"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="bot">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#e9967a"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg">
+							<div class="top">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#9400d3"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="mid">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#696969"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+							<div class="bot">
+								<svg width="75px" height="75px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#4682b4"
+										stroke-width="2"
+										points="15,0 30,30 0,30">
+									</polygon>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+			
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg2">
+							<div class="top">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#f00"
+										stroke-width="2"
+										points="30,0 30,30 0,30 0,0">
+									<polygon/>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text2">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg3">
+							<div class="top">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#f00"
+										stroke-width="2"
+										points="30,0 30,30 0,30 0,0">
+									<polygon/>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text2">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg5">
+							<div class="top">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#f00"
+										stroke-width="2"
+										points="30,0 30,30 0,30 0,0">
+									<polygon/>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text2">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-3">
+
+					<div class="loading_outer">
+						<div class="loader-svg6">
+							<div class="top">
+								<svg width="150px" height="150px" viewBox="-4 -1 38 28">
+									<polygon fill="transparent"
+										stroke = "#f00"
+										stroke-width="2"
+										points="30,0 30,30 0,30 0,0">
+									<polygon/>
+								</svg>
+							</div>
+						</div>
+						<div class="loader-text3">Loading<span>...</span></div>
+					</div>
+				
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		<footer>
+		
+			<p>Created by Conner J Batson. Updated 5/24/2022</p>
+			
+		</footer>
+	
+	</body>
+
+</html>

@@ -1,0 +1,326 @@
+/*
+	Author:		Conner Batson
+	Date:		5/15/2022
+	Name:		styleTriangle
+	Overview:	CSS for making triangle shapes and 
+				playing with their borders.
+				
+	Last Edit:	5/23/2022
+*/
+
+.tri-up {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  
+  border-bottom: 50px solid black;
+}
+
+.tri-down {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  
+  border-top: 50px solid #f00;
+}
+
+.tri-left {
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  
+  border-left: 50px solid green;
+}
+
+.tri-right {
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent; 
+  
+  border-right:50px solid blue; 
+}
+
+.tri-up-eq {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: calc(2 * 50px * 0.866) solid black;
+	border-top: 50px solid transparent;
+	display: inline-block;
+}
+
+.tri-down-eq {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-top: calc(2 * 50px * 0.866) solid red;
+	display: inline-block;
+}
+
+.tri-left-eq {
+	border-left: calc(2 * 50px * 0.866) solid green;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	display: inline-block;
+}
+
+.tri-right-eq {
+	border-left: 50px solid transparent;
+	border-right: calc(2 * 50px * 0.866) solid blue;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	display: inline-block;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-right: 53px solid red;
+}
+
+.inner-triangle {
+    position: relative;
+    top: -50px;
+    left: 2px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid blue;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-right: 53px solid transparent;
+	border-left: 53px solid red;
+}
+
+.inner-triangle-right {
+    position: relative;
+    top: -50px;
+    left: -52px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-left: 50px solid blue;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-top: 53px solid red;
+    border-bottom: 53px solid transparent;
+    border-right: 53px solid transparent;
+	border-left:53px solid transparent;
+}
+
+.inner-triangle-up {
+    position: relative;
+    top: -52px;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid blue;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid red;
+    border-right: 53px solid transparent;
+	border-left:53px solid transparent;
+}
+
+.inner-triangle-down {
+    position: relative;
+    top: -48px;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid blue;
+    border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+}
+
+/*
+	Coding solution below found on a coding blog, and credit goes to the author of this:
+	https://blog.stackfindover.com/triangle-loading-animation-using-html-and-css/
+*/
+
+.loader-svg {
+    
+}
+
+.loader-svg .mid svg polygon {
+	stroke-dasharray: 50;
+	animation: midanim 2.5s linear infinite;
+}
+
+.loader-svg2{
+	
+}
+
+.loader-svg2 .mid svg polygon {
+	stroke-dasharray: 50;
+	animation: midanim2 2.5s linear infinite;
+}
+
+.loader-svg3{
+	
+}
+
+.loader-svg3 .mid svg polygon {
+	stroke-dasharray: 50;
+	animation: midanim2 2.5s linear infinite;
+}
+
+@keyframes midanim {
+	to {
+		stroke-dashoffset:100; 
+	}
+}
+
+@keyframes midanim2 {
+	to {
+		stroke-dashoffset:100; 
+	}
+}
+
+.loader-svg svg polygon {
+    stroke-dasharray: 25;
+    animation: anim 2s linear infinite;
+}
+
+.loader-svg2 svg polygon {
+    stroke-dasharray: 10;
+    animation: anim2 2s linear infinite;
+}
+
+.loader-svg3 svg polygon {
+    stroke-dasharray: 5;
+    animation: anim2 2s linear infinite;
+}
+
+.loader-svg4 svg polygon {
+    stroke-dasharray: 25;
+    animation: anim2 2s linear infinite;
+}
+
+.loader-svg5 svg polygon {
+    stroke-dasharray: 30;
+    animation: anim3 2s linear infinite;
+}
+
+.loader-svg6 svg polygon {
+    stroke-dasharray: 100;
+    animation: anim4 2s linear infinite;
+}
+
+@keyframes anim {
+  to {
+    stroke-dashoffset:100;
+  }
+}
+
+@keyframes anim2 {
+  to {
+    stroke-dashoffset:100;
+  }
+}
+
+@keyframes anim3 {
+  to {
+    stroke-dashoffset:120;
+  }
+}
+
+@keyframes anim4 {
+  to {
+    stroke-dashoffset:400;
+  }
+}
+
+.loader-text {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #fff;
+}
+.loader-text span {
+	color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+    animation: dash 1.5s infinite;
+}
+@keyframes dash {
+	from {
+		-webkit-text-stroke: 0.5px #fff;
+	}
+	to {
+		color: #fff;
+	} 
+}
+
+.loader-text2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
+.loader-text2 span {
+	color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+    animation: dash2 2.5s infinite;
+}
+@keyframes dash2 {
+	from {
+		-webkit-text-stroke: 0.5px #fff;
+	}
+	to {
+		color: #fff;
+	} 
+}
+
+.loader-text3 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
+.loader-text3 span {
+	color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+    animation: dash3 2.5s infinite;
+}
+@keyframes dash3 {
+	from {
+		-webkit-text-stroke: 0.5px #fff;
+	}
+	to {
+		color: #fff;
+	} 
+}
+
+
+

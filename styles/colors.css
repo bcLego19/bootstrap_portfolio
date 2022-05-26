@@ -1,0 +1,63 @@
+.green {
+	background: linear-gradient(transparent, green);
+}
+
+.green2 {
+	background: green;
+}
+
+.blue {
+	background: linear-gradient(transparent, blue);
+}
+
+.blue2 {
+	background: blue;
+}
+
+.red {
+	background: linear-gradient(transparent, red);
+}
+
+.red2 {
+	background: red;
+}
+
+.yellow {
+	background: linear-gradient(transparent, yellow);
+}
+
+.yellow2 {
+	background: yellow;
+}
+
+.grey {
+	background: linear-gradient(transparent, grey);
+}
+
+.grey2 {
+	background: grey;
+}
+
+.orange {
+	background: linear-gradient(transparent, #ff8000);
+}
+
+.orange2 {
+	background: #ff8000;
+}
+
+.purple {
+	background: linear-gradient(transparent, #A901DB);
+}
+
+.purple2 {
+	background: #A901DB;
+}
+
+.pink {
+	background: linear-gradient(transparent, #FF1493);
+}
+
+.pink2 {
+	background: #FF1493;
+}

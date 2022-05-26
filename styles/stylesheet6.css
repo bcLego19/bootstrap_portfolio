@@ -1,0 +1,73 @@
+/*
+
+	CSS stylesheet6
+	Conner Batson
+	5/15/2022
+	
+	last edit 5/21/2022
+
+*/
+
+.loader {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #3498db;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+.loader-pink {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #ff1493;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+.loader-green {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #228b22;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+.loader-brick {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #b22222;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+.loader-orange {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #ff8c00;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+.loader-seagreen {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #20b2aa;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes rotate {
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
